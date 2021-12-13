@@ -1,5 +1,3 @@
-// top-level function
-
 import 'dart:io';
 import 'dart:math';
 
