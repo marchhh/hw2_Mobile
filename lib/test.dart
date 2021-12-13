@@ -8,9 +8,9 @@ void main() {
   var r = Random();
   var answer = r.nextInt(100);
 
-  print("╔════════════════════════════════════");
-  print("║           GUESS THE NUMBER         ");
-  print("╟════════════════════════════════════");
+  print("╔══════════════════════════════════════");
+  print("║            GUESS THE NUMBER          ");
+  print("╟══════════════════════════════════════");
   var count = 0;
 
   while (true) {
@@ -23,19 +23,19 @@ void main() {
     if(sum < answer){
       count++;
       print("║ ➜ $x is TOO LOW! ▼");
-      print("╟════════════════════════════════════");
+      print("╟════════════════════════════════════════");
     }
     else if(sum > answer){
       count++;
       print("║ ➜ $x is TOO HIGH! ▲");
-      print("╟════════════════════════════════════");
+      print("╟════════════════════════════════════════");
     }
     else if(sum == answer){
       count++;
       print("║ ➜ $x is CORRECT ❤, total guesses: $count");
-      print("╟════════════════════════════════════");
-      print("║               THE END              ");
-      print("╚════════════════════════════════════");
+      print("╟════════════════════════════════════════");
+      print("║                 THE END                ");
+      print("╚════════════════════════════════════════");
       break;
     }
 
